@@ -8,7 +8,8 @@ Este proyecto implementa un agente de **Aprendizaje por Refuerzo Profundo (Deep 
 
 ## ¿Qué es Assault?
 
-**Assault** es un videojuego clásico de Atari en el que el jugador controla una nave que debe defender su posición frente a oleadas de enemigos que disparan proyectiles desde la parte superior de la pantalla. El objetivo es eliminar enemigos y sobrevivir el mayor tiempo posible acumulando puntos.
+**Assault** es un videojuego clásico de Atari en el que el jugador controla una nave que debe defende
+r su posición frente a oleadas de enemigos que disparan proyectiles desde la parte superior de la pantalla. El objetivo es eliminar enemigos y sobrevivir el mayor tiempo posible acumulando puntos.
 
 Desde la perspectiva de aprendizaje por refuerzo, Assault presenta varios desafíos técnicos:
 
@@ -81,17 +82,9 @@ Assault/
 │
 ├── dqn_assault.zip
 ├── videos.mp4 (Rederización del comportamiento en entrenamiento y final)
-├── logs/
+├── logs/  (Checkpoints intermedios)
 └── Problema_dificultad_media_Assault.ipynb
 ```
-
-### Carpeta logs/
-
-Incluye:
-
-- Archivos de eventos de TensorBoard
-- Checkpoints intermedios
-- Métricas de entrenamiento
 
 ---
 
