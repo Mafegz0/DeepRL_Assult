@@ -80,7 +80,7 @@ La evolución de recompensas puede visualizarse mediante los logs de TensorBoard
 Assault/
 │
 ├── dqn_assault.zip
-├── video_dqn_assault.mp4
+├── videos.mp4 (Rederización del comportamiento en entrenamiento y final)
 ├── logs/
 └── Problema_dificultad_media_Assault.ipynb
 ```
